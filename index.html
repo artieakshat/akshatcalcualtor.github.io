@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css    " rel="stylesheet">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/calculator.css">
+</head>
+<body>
+    <div>
+        <img src="Black_Orange_Illustrative_Esport_Gaming_Logo-removebg-preview.png" alt="">
+    </div>
+    <div class="calculator-container flex1 flex-content-center1">
+            <section class="sec-cal flex1 flex-content-center1">
+                <div class="calculator row col-12" style="width: 110%;">
+                <form action="">
+                    <input type="text" name="calculation" value="0" id="input">
+                   </form>
+                </div>
+                <div class="button-container" id="button-container">
+            <div class="row flex col-12">
+           <button type="button" class="buttons col-lg-3">C</button>
+           <button type="button" class="buttons col-lg-3">/</button>
+           <button type="button" class="buttons col-lg-3">*</button>
+           <button type="button" class="buttons col-lg-3"  onclick="eraseAll()"><i class="fa-solid fa-eraser" id="erase"></i></button>
+        </div>
+         
+        <div class="row flex col-12 ">
+           <button type="button" class="buttons col-lg-3" id="number" >7</i></button>
+           <button type="button" class="buttons col-lg-3" id="number" >8</i></button>
+           <button type="button" class="buttons col-lg-3" id="number" >9</i></button>
+           <button type="button" class="buttons col-lg-3"  >-</button>
+        </div>
+        <div class="row flex col-12 ">
+           <button type="button" class="buttons col-lg-3" id="number4" >4</button>
+           <button type="button" class="buttons col-lg-3" id="number5" >5</button>
+           <button type="button" class="buttons col-lg-3" id="number6" >6</button>
+           <button type="button" class="buttons col-lg-3">+</button>
+        </div>
+        <div class="row flex col-12 ">
+            <button type="button" class="buttons col-lg-3" id="number1" >1</i></button>
+            <button type="button" class="buttons col-lg-3" id="number2" >2</i></button>
+            <button type="button" class="buttons col-lg-3" id="number3" >3</i></button>
+            <button type="button" class="buttons col-lg-3">√</button>
+         </div>
+        <div class="row flex col-12">
+            <button type="button" class="buttons col-lg-3">%</button>
+           <button type="button" class="buttons  col-lg-3" id="number0">0</i></button>
+           <button type="button" class="buttons  col-lg-3" id="numbers">.</button>
+           <button type="button" class="buttons  col-lg-3">=</button>
+        </div>
+    </div>
+    </section>
+        </div>
+    <script src="js/calc.js"></script>
+</body>
+</html>
